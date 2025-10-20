@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const toggleButton = document.getElementById('toggleButton');
     const extraInfo = document.getElementById('extraInfo');
+	const EraseWeb = document.getElementById('EraseWeb');
 
     // Función para mostrar u ocultar la información adicional
     toggleButton.addEventListener('click', function() {
@@ -11,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             extraInfo.style.display = "none";
             toggleButton.textContent = "Mostrar más información";
+		
         }
     });
 });
